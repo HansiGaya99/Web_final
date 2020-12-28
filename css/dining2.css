@@ -1,10 +1,12 @@
 /* Body */
 
-html {
+html 
+{
     scroll-behavior:smooth ;
     scrollbar-color: rgb(97, 66, 0) rgb(160, 128, 58);
     
   }
+
   .body
   {
     background-color:rgb(255, 255, 255);
@@ -15,6 +17,7 @@ html {
   /* Body End*/
   
   /* Navigation Bar */
+  
   .navfont
   {
       color:rgb(119, 81, 0) ;
@@ -29,6 +32,7 @@ html {
       transition:0.5s;
       
   }
+
   .navfont:hover
   {
       color:rgb(119, 81, 0) ;
@@ -43,12 +47,14 @@ html {
       transition:0.5s;
       
   }
+
   .navlogo
   {
       width: 50px;
       height: 40px;
       
   }
+
   .menuicon
   {
       width: 50px;
@@ -57,6 +63,7 @@ html {
       margin-top: 0px;
       
   }
+
   .navlink
   {
       color:rgba(255, 255, 255, 0.822) ;
@@ -65,6 +72,7 @@ html {
       font-style: italic;
       transition: 0.5s;
   }
+
   .navlink:hover
   {
       
@@ -105,7 +113,8 @@ html {
   }
   
   
-  .dropdown-content1 {
+  .dropdown-content1 
+  {
       display: none;
       position: absolute;
       background-image: linear-gradient( rgb(0, 0, 0) 10% , rgb(0, 0, 0) 100%);
@@ -114,17 +123,24 @@ html {
       
       
   }
-  .dropdownA{
+
+  .dropdownA
+  {
     color: white;
     display: block;
     margin-left: 10px;
     margin-bottom: 10px;
   }
+
+
   .dropdown-menu
   {
     background-color: rgba(245, 245, 245, 0);
   }
-  .btn1 {
+
+
+  .btn1 
+  {
     border: 2px solid ;
     background-color: rgba(58, 40, 0, 0);
     color:rgb(134, 92, 0) ;
@@ -138,7 +154,8 @@ html {
   }
   
       
-  .navbtn {
+  .navbtn 
+  {
       border-color:rgba(0, 0, 0, 0) ;
       color: rgb(255, 255, 255);
       background: rgba(0, 0, 0, 0.959);
@@ -146,12 +163,16 @@ html {
       transition: 0.5s;
   }
         
-  .navbtn:hover {
+  .navbtn:hover 
+  {
       background: rgb(255, 255, 255);
        color: rgb(0, 0, 0);
        transition: 0.5s;
   }
-  @media only screen and (max-width : 992px) {
+
+
+  @media only screen and (max-width : 992px) 
+  {
     .dropdownback
   {
     background-image: linear-gradient( rgba(0, 0, 0, 0.212) 10% , rgba(0, 0, 0, 0.233) 100%);
@@ -166,7 +187,8 @@ html {
     
     
   }
-  .navbtn {
+  .navbtn 
+  {
     border-color:rgba(255, 255, 255, 0) ;
     color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0.959);
@@ -184,7 +206,8 @@ html {
 }
   
       
-.carousel-item {
+.carousel-item 
+{
   height: 80vh;
   min-height: 600px;
   background: no-repeat center center scroll;
@@ -193,7 +216,10 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-.slider1{
+
+
+.slider1
+{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.13);
   position: absolute;
@@ -219,6 +245,7 @@ cursor: pointer;
 
 
 }
+
 .rates:hover, .rates2:hover
 {
 
@@ -237,6 +264,7 @@ text-decoration: none;
 
 
 }
+
 .rates2
 {
 
@@ -254,6 +282,7 @@ text-decoration: none;
 
 
 }
+
 .nextprev
 {
 position: absolute;
@@ -264,21 +293,25 @@ z-index: 9;
 
   /*start parallex*/
 
-.p2back {
+.p2back 
+{
     background-image: url("../resourses/back2.png");
 }
 
-.hr1{
+.hr1
+{
 	border-top: 3px solid #8c8b8b;
     width: 70%;
     margin-bottom: 0%;
 }
 
-.hr1 .t-tilte {
+.hr1 .t-tilte 
+{
     color: rgb(112, 77, 0);
 }
 
-.service {
+.service 
+{
     background-image: url("../resourses/back2.png");
     background-repeat: no-repeat;
 }
@@ -288,18 +321,25 @@ z-index: 9;
 
 /*buuton*/
 
-.menu_btn.btn.btn-primary {
+.menu_btn.btn.btn-primary 
+{
     margin: 0 auto;
     display: block;
     width: 140px;
     background-color: rgb(112, 77, 0);
 }
-.menu_btn.btn.btn-primary {
+
+
+.menu_btn.btn.btn-primary 
+{
 	margin: 0 auto;
 	display: block;
 	width: 140px;
 }
-.btn.btn-primary {
+
+
+.btn.btn-primary 
+{
     background-color: white;
 	border: 1px solid rgb(112, 77, 0);
 	transition: .3s;
@@ -310,7 +350,10 @@ z-index: 9;
 	overflow: hidden;
 	padding: 15px 25px;
 }
-.btn.btn-primary::before {
+
+
+.btn.btn-primary::before 
+{
 	position: absolute;
 	content: '';
 	background: rgb(112, 77, 0);
@@ -321,7 +364,10 @@ z-index: 9;
 	transition: .3s;
 	z-index: -1;
 }
-.btn.btn-primary:hover:before{
+
+
+.btn.btn-primary:hover:before
+{
     top: 0;
     left: 0;
     background-color: rgb(112, 77, 0);
@@ -332,18 +378,21 @@ z-index: 9;
 
 /*detail*/
 
-p.site-title {
+p.site-title 
+{
     color: #000000;
   }
   
-  article.col-md-4 col-lg-3 {
+  article.col-md-4 col-lg-3 
+  {
     background: #f5f5f5;
     margin-top: 1em;  
     margin-bottom: 2em;
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
   }
   
-  div.card-content {
+  div.card-content 
+  {
     background: #f5f5f5;
     padding: 0.5em;
     margin-top: 1em;  
@@ -351,25 +400,30 @@ p.site-title {
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
   }
   
-  div.card-content h3 {
+  div.card-content h3 
+  {
     margin-bottom: 0.5em;
     font-weight: normal;
   }
   
-  div.card-content p {
+  div.card-content p 
+  {
     font-size: 95%;
   }
   
-  img.spectrum1 {
+  img.spectrum1 
+  {
     width: 100%;
     height: auto;
   }
   
-  div a, a:hover {
+  div a, a:hover 
+  {
     text-decoration: none;
   }
   
-  div a:hover {
+  div a:hover 
+  {
     opacity: 0.8;
   }
   
@@ -378,7 +432,8 @@ p.site-title {
 /*detail end*/
 
  /* Footer */
- .media2{
+ .media2
+ {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -387,19 +442,25 @@ p.site-title {
     
     
   }
-  .endcont{
+
+  .endcont
+  {
     margin-top: 0px;
     text-align: center;
    
   }
-  .endtopic{
+
+  .endtopic
+  {
     font-size: 28px;
     color: rgb(56, 41, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
   }
-  .endcont2{
+
+  .endcont2
+  {
     font-size: 15px;
     margin-top: 30px;
     color: rgb(0, 0, 0);
@@ -410,6 +471,7 @@ p.site-title {
     
   
   }
+  
   .footerlogo
   {
       width: 70px;

@@ -1,10 +1,13 @@
 /* Body */
 
-html {
+html 
+{
     scroll-behavior:smooth ;
     scrollbar-color: rgb(97, 66, 0) rgb(160, 128, 58);
     
   }
+
+
   .body
   {
     background-color:rgb(255, 255, 255);
@@ -30,6 +33,7 @@ html {
       transition:0.5s;
       
   }
+
   .navfont:hover
   {
       color:rgb(119, 81, 0) ;
@@ -44,12 +48,14 @@ html {
       transition:0.5s;
       
   }
+
   .navlogo
   {
       width: 50px;
       height: 40px;
       
   }
+
   .menuicon
   {
       width: 50px;
@@ -58,6 +64,7 @@ html {
       margin-top: 0px;
       
   }
+
   .navlink
   {
       color:rgba(255, 255, 255, 0.822) ;
@@ -66,6 +73,7 @@ html {
       font-style: italic;
       transition: 0.5s;
   }
+
   .navlink:hover
   {
       
@@ -106,7 +114,8 @@ html {
   }
   
   
-  .dropdown-content1 {
+  .dropdown-content1 
+  {
       display: none;
       position: absolute;
       background-image: linear-gradient( rgb(0, 0, 0) 10% , rgb(0, 0, 0) 100%);
@@ -115,17 +124,23 @@ html {
       
       
   }
-  .dropdownA{
+  .dropdownA
+  {
     color: white;
     display: block;
     margin-left: 10px;
     margin-bottom: 10px;
   }
+
+
   .dropdown-menu
   {
     background-color: rgba(245, 245, 245, 0);
   }
-  .btn1 {
+
+
+  .btn1 
+  {
     border: 2px solid ;
     background-color: rgba(58, 40, 0, 0);
     color:rgb(134, 92, 0) ;
@@ -139,7 +154,8 @@ html {
   }
   
       
-  .navbtn {
+  .navbtn 
+  {
       border-color:rgba(0, 0, 0, 0) ;
       color: rgb(255, 255, 255);
       background: rgba(0, 0, 0, 0.959);
@@ -147,12 +163,15 @@ html {
       transition: 0.5s;
   }
         
-  .navbtn:hover {
+  .navbtn:hover 
+  {
       background: rgb(255, 255, 255);
        color: rgb(0, 0, 0);
        transition: 0.5s;
   }
-  @media only screen and (max-width : 992px) {
+
+  @media only screen and (max-width : 992px) 
+  {
     .dropdownback
   {
     background-image: linear-gradient( rgba(0, 0, 0, 0.212) 10% , rgba(0, 0, 0, 0.233) 100%);
@@ -167,7 +186,8 @@ html {
     
     
   }
-  .navbtn {
+  .navbtn 
+  {
     border-color:rgba(255, 255, 255, 0) ;
     color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0.959);
@@ -182,7 +202,8 @@ html {
 
 /*start parallex*/
 
-.p2back {
+.p2back 
+{
     background-image: url("../resourses/back2.png");
     background-repeat: no-repeat;
   margin: 0px;
@@ -199,6 +220,8 @@ html {
   box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.329);
   
 }
+
+
 .imgxs
 {
   width: 200px;
@@ -210,6 +233,8 @@ html {
   
  
 }
+
+
 .imgs
 {
   width: 280px;
@@ -229,7 +254,8 @@ html {
 
 
 /* Footer */
- .media2{
+ .media2
+ {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -238,19 +264,25 @@ html {
     
     
   }
-  .endcont{
+
+  .endcont
+  {
     margin-top: 0px;
     text-align: center;
    
   }
-  .endtopic{
+
+  .endtopic
+  {
     font-size: 28px;
     color: rgb(56, 41, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
   }
-  .endcont2{
+
+  .endcont2
+  {
     font-size: 15px;
     margin-top: 30px;
     color: rgb(0, 0, 0);
@@ -261,6 +293,7 @@ html {
     
   
   }
+  
   .footerlogo
   {
       width: 70px;
