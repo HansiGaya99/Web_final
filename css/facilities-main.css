@@ -7,7 +7,7 @@ html {
   {
     background-color:rgb(255, 255, 255);
       margin: 0px;
-      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: ubuntu !important;
   }
   
   /* Body End*/
@@ -277,8 +277,8 @@ html {
       display: inline-block;
       margin: 1rem;
       border-radius: 4px;
-      box-shadow: 0 -1px 1px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.2);
-      transition: all .2s ease;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.589);
+      transition: 0.5s;
       background: #fff;
       position: relative;
     overflow: hidden;
@@ -298,7 +298,7 @@ html {
           }
           
       .card:hover, .card:hover .card-img .overlay {
-              background-color: rgba(25,29,38,.85);
+              background-color: rgba(0, 0, 0, 0.61);
               transition: opacity .2s ease;
               opacity: 1;
           }
@@ -345,7 +345,7 @@ html {
   }
             
   .card-img .overlay .overlay-content a:hover, .card-img .overlay .overlay-content a.hover {
-                          background: rgb(112, 77, 0);
+                          background: rgb(117, 87, 21);
                           border-color: rgb(112, 77, 0);
                         
                       }
