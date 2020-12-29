@@ -9,7 +9,7 @@ html {
   {
     background-color:rgb(255, 255, 255);
       margin: 0px;
-      font-family:Ubuntu;
+      font-family:Ubuntu !important;
   }
   
   /* Body End*/

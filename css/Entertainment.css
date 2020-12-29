@@ -3,9 +3,18 @@
 }
 
 .cls1{
-	border-top: 3px solid #8c8b8b;
-    width: 70%;
+	border-top: 3px solid #614204;
+    width: 50%;
     margin-bottom: 0%;
+    background-color:  rgb(90, 66, 0);
+    color: rgb(85, 64, 6);
+}
+.cls2{
+	border-top: 3px solid  rgb(90, 66, 0);
+    width: 100%;
+    margin-bottom: 0%;
+    background-color:  rgb(90, 66, 0);
+    color: rgb(90, 66, 0);
 }
 
 .imglg1
