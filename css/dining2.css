@@ -9,6 +9,7 @@ html
 
   .body
   {
+
     background-color:rgb(255, 255, 255);
       margin: 0px;
       font-family:Ubuntu;
@@ -20,6 +21,7 @@ html
   
   .navfont
   {
+
       color:rgb(119, 81, 0) ;
       font-size: 28px;
       background-image: linear-gradient( rgb(0, 0, 0)  10% , rgba(0, 0, 0, 0) 100%);
@@ -35,6 +37,7 @@ html
 
   .navfont:hover
   {
+
       color:rgb(119, 81, 0) ;
       font-size: 28px;
       background-image: linear-gradient( rgb(0, 0, 0)  10% , rgba(0, 0, 0, 0.308) 100%);
@@ -50,6 +53,7 @@ html
 
   .navlogo
   {
+
       width: 50px;
       height: 40px;
       
@@ -57,6 +61,7 @@ html
 
   .menuicon
   {
+
       width: 50px;
       height: 60px;
       opacity: 0.7;
@@ -66,6 +71,7 @@ html
 
   .navlink
   {
+
       color:rgba(255, 255, 255, 0.822) ;
       font-size: 18px;
       font-family:lobster;
@@ -86,6 +92,7 @@ html
   
   .navlink2
   {
+
     color:rgb(255, 255, 255) ;
     font-size: 13px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -102,6 +109,7 @@ html
   
   .navlink2:hover
   {
+
     
     font-size: 13px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -115,6 +123,7 @@ html
   
   .dropdown-content1 
   {
+
       display: none;
       position: absolute;
       background-image: linear-gradient( rgb(0, 0, 0) 10% , rgb(0, 0, 0) 100%);
@@ -126,6 +135,7 @@ html
 
   .dropdownA
   {
+
     color: white;
     display: block;
     margin-left: 10px;
@@ -135,12 +145,14 @@ html
 
   .dropdown-menu
   {
+
     background-color: rgba(245, 245, 245, 0);
   }
 
 
   .btn1 
   {
+
     border: 2px solid ;
     background-color: rgba(58, 40, 0, 0);
     color:rgb(134, 92, 0) ;
@@ -156,6 +168,7 @@ html
       
   .navbtn 
   {
+
       border-color:rgba(0, 0, 0, 0) ;
       color: rgb(255, 255, 255);
       background: rgba(0, 0, 0, 0.959);
@@ -165,6 +178,7 @@ html
         
   .navbtn:hover 
   {
+
       background: rgb(255, 255, 255);
        color: rgb(0, 0, 0);
        transition: 0.5s;
@@ -173,8 +187,10 @@ html
 
   @media only screen and (max-width : 992px) 
   {
+
     .dropdownback
   {
+
     background-image: linear-gradient( rgba(0, 0, 0, 0.212) 10% , rgba(0, 0, 0, 0.233) 100%);
     padding-bottom: 20px;
     padding-left: 20px;
@@ -189,6 +205,7 @@ html
   }
   .navbtn 
   {
+
     border-color:rgba(255, 255, 255, 0) ;
     color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0.959);
@@ -208,6 +225,7 @@ html
       
 .carousel-item 
 {
+
   height: 80vh;
   min-height: 600px;
   background: no-repeat center center scroll;
@@ -220,6 +238,7 @@ html
 
 .slider1
 {
+
   width: 100%;
   background-color: rgba(0, 0, 0, 0.13);
   position: absolute;
@@ -285,6 +304,7 @@ text-decoration: none;
 
 .nextprev
 {
+
 position: absolute;
 z-index: 9;
 }
@@ -295,11 +315,13 @@ z-index: 9;
 
 .p2back 
 {
+
     background-image: url("../resourses/back2.png");
 }
 
 .hr1
 {
+
 	border-top: 3px solid #8c8b8b;
     width: 70%;
     margin-bottom: 0%;
@@ -307,11 +329,13 @@ z-index: 9;
 
 .hr1 .t-tilte 
 {
+
     color: rgb(112, 77, 0);
 }
 
 .service 
 {
+
     background-image: url("../resourses/back2.png");
     background-repeat: no-repeat;
 }
@@ -323,6 +347,7 @@ z-index: 9;
 
 .menu_btn.btn.btn-primary 
 {
+
     margin: 0 auto;
     display: block;
     width:140px;
@@ -333,6 +358,7 @@ z-index: 9;
 
 .menu_btn.btn.btn-primary 
 {
+
 	margin: 0 auto;
 	display: block;
 	width:10%;
@@ -341,6 +367,7 @@ z-index: 9;
 
 .btn.btn-primary 
 {
+
     background-color: white;
 	border: 1px solid rgb(146, 109, 28);
 	transition: .3s;
@@ -355,6 +382,7 @@ z-index: 9;
 
 .btn.btn-primary::before 
 {
+
 	position: absolute;
 	content: '';
 	background: rgb(151, 108, 14);
@@ -369,6 +397,7 @@ z-index: 9;
 
 .btn.btn-primary:hover:before
 {
+
     top: 0;
     left: 0;
     background-color: rgb(163, 126, 45);
@@ -381,11 +410,13 @@ z-index: 9;
 
 p.site-title 
 {
+
     color: #000000;
   }
   
   article.col-md-4 col-lg-3 
   {
+
     background: #f5f5f5;
     margin-top: 1em;  
     margin-bottom: 2em;
@@ -394,6 +425,7 @@ p.site-title
   
   div.card-content 
   {
+
     background: #f5f5f5;
     padding: 0.5em;
     margin-top: 1em;  
@@ -403,28 +435,33 @@ p.site-title
   
   div.card-content h3 
   {
+
     margin-bottom: 0.5em;
     font-weight: normal;
   }
   
   div.card-content p 
   {
+
     font-size: 95%;
   }
   
   img.spectrum1 
   {
+
     width: 100%;
     height: auto;
   }
   
   div a, a:hover 
   {
+
     text-decoration: none;
   }
   
   div a:hover 
   {
+
     opacity: 0.8;
   }
   
@@ -435,6 +472,7 @@ p.site-title
  /* Footer */
  .media2
  {
+
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -446,6 +484,7 @@ p.site-title
 
   .endcont
   {
+
     margin-top: 0px;
     text-align: center;
    
@@ -453,6 +492,7 @@ p.site-title
 
   .endtopic
   {
+
     font-size: 28px;
     color: rgb(56, 41, 0);
     text-align: center;
@@ -462,6 +502,7 @@ p.site-title
 
   .endcont2
   {
+
     font-size: 15px;
     margin-top: 30px;
     color: rgb(0, 0, 0);
@@ -475,6 +516,7 @@ p.site-title
   
   .footerlogo
   {
+    
       width: 70px;
       height: 60px;
       
