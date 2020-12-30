@@ -2,6 +2,7 @@
 
 html 
 {
+
     scroll-behavior:smooth ;
     scrollbar-color: rgb(97, 66, 0) rgb(160, 128, 58);
     
@@ -10,6 +11,7 @@ html
 
   .body
   {
+
     background-color:rgb(255, 255, 255);
       margin: 0px;
       font-family:Ubuntu !important;
@@ -21,6 +23,7 @@ html
 /* Navigation Bar */
   .navfont
   {
+
       color:rgb(119, 81, 0) ;
       font-size: 28px;
       background-image: linear-gradient( rgb(0, 0, 0)  10% , rgba(0, 0, 0, 0) 100%);
@@ -36,6 +39,7 @@ html
 
   .navfont:hover
   {
+
       color:rgb(119, 81, 0) ;
       font-size: 28px;
       background-image: linear-gradient( rgb(0, 0, 0)  10% , rgba(0, 0, 0, 0.308) 100%);
@@ -51,6 +55,7 @@ html
 
   .navlogo
   {
+
       width: 50px;
       height: 40px;
       
@@ -58,6 +63,7 @@ html
 
   .menuicon
   {
+
       width: 50px;
       height: 60px;
       opacity: 0.7;
@@ -67,6 +73,7 @@ html
 
   .navlink
   {
+
       color:rgba(255, 255, 255, 0.822) ;
       font-size: 18px;
       font-family:lobster;
@@ -87,6 +94,7 @@ html
   
   .navlink2
   {
+
     color:rgb(255, 255, 255) ;
     font-size: 13px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -116,6 +124,7 @@ html
   
   .dropdown-content1 
   {
+
       display: none;
       position: absolute;
       background-image: linear-gradient( rgb(0, 0, 0) 10% , rgb(0, 0, 0) 100%);
@@ -126,6 +135,7 @@ html
   }
   .dropdownA
   {
+
     color: white;
     display: block;
     margin-left: 10px;
@@ -135,12 +145,14 @@ html
 
   .dropdown-menu
   {
+
     background-color: rgba(245, 245, 245, 0);
   }
 
 
   .btn1 
   {
+
     border: 2px solid ;
     background-color: rgba(58, 40, 0, 0);
     color:rgb(134, 92, 0) ;
@@ -156,6 +168,7 @@ html
       
   .navbtn 
   {
+
       border-color:rgba(0, 0, 0, 0) ;
       color: rgb(255, 255, 255);
       background: rgba(0, 0, 0, 0.959);
@@ -165,6 +178,7 @@ html
         
   .navbtn:hover 
   {
+
       background: rgb(255, 255, 255);
        color: rgb(0, 0, 0);
        transition: 0.5s;
@@ -172,8 +186,10 @@ html
 
   @media only screen and (max-width : 992px) 
   {
+
     .dropdownback
   {
+
     background-image: linear-gradient( rgba(0, 0, 0, 0.212) 10% , rgba(0, 0, 0, 0.233) 100%);
     padding-bottom: 20px;
     padding-left: 20px;
@@ -186,8 +202,10 @@ html
     
     
   }
+
   .navbtn 
   {
+
     border-color:rgba(255, 255, 255, 0) ;
     color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0.959);
@@ -204,6 +222,7 @@ html
 
 .p2back 
 {
+
     background-image: url("../resourses/back2.png");
     background-repeat: no-repeat;
   margin: 0px;
@@ -213,6 +232,7 @@ html
 
 .imglg
 {
+
   width: 500px;
   height: 300px;
   border-radius: 5px;
@@ -224,6 +244,7 @@ html
 
 .imgxs
 {
+
   width: 200px;
   height: 150px;
   border-radius: 5px;
@@ -237,6 +258,7 @@ html
 
 .imgs
 {
+
   width: 280px;
   height: 180px;
   border-radius: 5px;
@@ -256,6 +278,7 @@ html
 /* Footer */
  .media2
  {
+
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -267,6 +290,7 @@ html
 
   .endcont
   {
+
     margin-top: 0px;
     text-align: center;
    
@@ -274,6 +298,7 @@ html
 
   .endtopic
   {
+
     font-size: 28px;
     color: rgb(56, 41, 0);
     text-align: center;
@@ -283,6 +308,7 @@ html
 
   .endcont2
   {
+
     font-size: 15px;
     margin-top: 30px;
     color: rgb(0, 0, 0);
@@ -296,6 +322,7 @@ html
   
   .footerlogo
   {
+    
       width: 70px;
       height: 60px;
       
